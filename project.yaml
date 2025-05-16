@@ -1,12 +1,12 @@
 basic:
-    name: 'Alliance Direct Benefits (JOIN)'
+    name: 'Alliance Direct Benefits (JOIN & MEMBERS)'
     breakpoints:
         - 640
         - 960
         - 1200
     pages:
         - 'https://join.alliancedirectbenefits.com/Checkout/MemberInfo'
-        - 'https://members.alliancedirectbenefits.com/'
+        - 'https://members.alliancedirectbenefits.com'
     monitoring:
         days: [Sun]
         type: weekly
@@ -25,7 +25,8 @@ advanced:
     cookies: ''
     custom_js: ''
     custom_css: ''
-    mock_content: ''
+    mock_content:
+        - { selector: '', type: title }
     performance:
         workers_production: 30
         workers_nonproduction: 10
