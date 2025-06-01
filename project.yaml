@@ -29,11 +29,10 @@ advanced:
     sensitivity: 5
     night_mode: false
     retina_images: false
+    single_ip: false
     performance:
         workers_production: 30
         workers_nonproduction: 10
         workers_production_delay: 0
         workers_nonproduction_delay: 0
     stabilize: true
-proxy: false
-type: multiple-sites
